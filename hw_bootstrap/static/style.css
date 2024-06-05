@@ -1,0 +1,35 @@
+.service-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 600px;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+
+}
+
+.sidebar {
+background-color: #f8f9fa;
+padding: 20px;
+border-radius: 8px;
+}
+
+.main-content {
+padding: 20px;
+}
+
+.service-card > img {
+    height: 250px;
+    width: 250px;
+}
+
+#about > h2 {
+    font-weight: 600;
+}
